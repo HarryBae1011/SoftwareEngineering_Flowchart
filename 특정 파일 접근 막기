@@ -1,78 +1,93 @@
-<mxfile host="app.diagrams.net" modified="2023-04-28T12:04:28.061Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="DjEPCsvOO_I98EuK2htk" version="21.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-28T12:08:28.362Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="TxvjtpM-TbUOYuIFkjGF" version="21.1.8" type="github">
   <diagram name="페이지-1" id="3gSI8iD23IMh4xd1Eil4">
-    <mxGraphModel dx="1323" dy="1939" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1134" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="zTcWmqErvqBM_CIjkvbR-1" value="패킷 캡처" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="-140" width="120" height="60" as="geometry" />
+          <mxGeometry x="80" y="70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zTcWmqErvqBM_CIjkvbR-3" value="포트를 기반으로&lt;br&gt;실행중인 프로세스,&lt;br&gt;PID 조회" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="100" width="120" height="60" as="geometry" />
+          <mxGeometry x="300" y="190" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zTcWmqErvqBM_CIjkvbR-4" value="접근하는 &lt;br&gt;파일 목록 조회" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="200" width="120" height="60" as="geometry" />
+        <mxCell id="zTcWmqErvqBM_CIjkvbR-4" value="프로세스가 접근하는 &lt;br&gt;파일 목록 조회" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zTcWmqErvqBM_CIjkvbR-9" value="보호 대상인 파일이 &lt;br&gt;파일 목록에 있나?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="265" y="310" width="190" height="80" as="geometry" />
+          <mxGeometry x="265" y="400" width="190" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zTcWmqErvqBM_CIjkvbR-10" value="접근이 가능한&lt;br&gt;사용자인가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="450" width="180" height="80" as="geometry" />
+          <mxGeometry x="270" y="540" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zTcWmqErvqBM_CIjkvbR-11" value="파일 접근 허용" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="580" width="120" height="60" as="geometry" />
+          <mxGeometry x="300" y="670" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zTcWmqErvqBM_CIjkvbR-12" value="통신 차단" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="460" width="120" height="60" as="geometry" />
+          <mxGeometry x="540" y="550" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zTcWmqErvqBM_CIjkvbR-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zTcWmqErvqBM_CIjkvbR-1" target="zTcWmqErvqBM_CIjkvbR-22">
+        <mxCell id="zTcWmqErvqBM_CIjkvbR-13" value="&amp;nbsp; ip , 포트번호 추출" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;align=left;fontSize=13;" edge="1" parent="1" source="zTcWmqErvqBM_CIjkvbR-1" target="zTcWmqErvqBM_CIjkvbR-22">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="440" y="330" as="sourcePoint" />
-            <mxPoint x="360" y="20" as="targetPoint" />
+            <mxPoint x="220" y="540" as="sourcePoint" />
+            <mxPoint x="140" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zTcWmqErvqBM_CIjkvbR-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zTcWmqErvqBM_CIjkvbR-3" target="zTcWmqErvqBM_CIjkvbR-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="440" y="330" as="sourcePoint" />
-            <mxPoint x="490" y="280" as="targetPoint" />
+            <mxPoint x="440" y="420" as="sourcePoint" />
+            <mxPoint x="490" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zTcWmqErvqBM_CIjkvbR-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zTcWmqErvqBM_CIjkvbR-4" target="zTcWmqErvqBM_CIjkvbR-9">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="440" y="330" as="sourcePoint" />
-            <mxPoint x="490" y="280" as="targetPoint" />
+            <mxPoint x="440" y="420" as="sourcePoint" />
+            <mxPoint x="490" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zTcWmqErvqBM_CIjkvbR-16" value="Yes" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;align=center;fontSize=15;" edge="1" parent="1" source="zTcWmqErvqBM_CIjkvbR-9" target="zTcWmqErvqBM_CIjkvbR-10">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="440" y="330" as="sourcePoint" />
-            <mxPoint x="490" y="280" as="targetPoint" />
+            <mxPoint x="440" y="420" as="sourcePoint" />
+            <mxPoint x="490" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zTcWmqErvqBM_CIjkvbR-18" value="No" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=15;" edge="1" parent="1" source="zTcWmqErvqBM_CIjkvbR-9">
+        <mxCell id="zTcWmqErvqBM_CIjkvbR-18" value="No" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=15;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zTcWmqErvqBM_CIjkvbR-9" target="zTcWmqErvqBM_CIjkvbR-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="440" y="330" as="sourcePoint" />
-            <mxPoint x="490" y="40" as="targetPoint" />
+            <mxPoint x="440" y="420" as="sourcePoint" />
+            <mxPoint x="490" y="130" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="560" y="350" />
-              <mxPoint x="560" y="40" />
+              <mxPoint x="560" y="440" />
+              <mxPoint x="560" y="100" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="zTcWmqErvqBM_CIjkvbR-19" value="Yes" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="zTcWmqErvqBM_CIjkvbR-10" target="zTcWmqErvqBM_CIjkvbR-11">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="440" y="330" as="sourcePoint" />
-            <mxPoint x="490" y="280" as="targetPoint" />
+            <mxPoint x="440" y="420" as="sourcePoint" />
+            <mxPoint x="490" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zTcWmqErvqBM_CIjkvbR-20" value="No" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="zTcWmqErvqBM_CIjkvbR-10" target="zTcWmqErvqBM_CIjkvbR-12">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="440" y="330" as="sourcePoint" />
-            <mxPoint x="490" y="280" as="targetPoint" />
+            <mxPoint x="440" y="420" as="sourcePoint" />
+            <mxPoint x="490" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zTcWmqErvqBM_CIjkvbR-22" value="차단된 적이 있는 ip인가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="-30" width="180" height="80" as="geometry" />
+          <mxGeometry x="50" y="180" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zTcWmqErvqBM_CIjkvbR-23" value="No" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="zTcWmqErvqBM_CIjkvbR-22" target="zTcWmqErvqBM_CIjkvbR-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="390" as="sourcePoint" />
+            <mxPoint x="270" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zTcWmqErvqBM_CIjkvbR-24" value="Yes" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=15;" edge="1" parent="1" source="zTcWmqErvqBM_CIjkvbR-22" target="zTcWmqErvqBM_CIjkvbR-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="390" as="sourcePoint" />
+            <mxPoint x="140" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zTcWmqErvqBM_CIjkvbR-25" value="통신 차단" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="310" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
